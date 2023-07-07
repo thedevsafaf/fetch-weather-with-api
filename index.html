@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zafe Weather Web App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="main">
+        <div class="weather-container">
+            <h1>Zafe Weather Web App</h1>
+            <form>
+                <input type="text" placeholder="Enter any location" id="search-bar" autofocus>
+                <button type="submit" id="search-btn">Search</button>
+                <span class="msg"></span>
+            </form>
+            <div class="ajax-section">
+                <div class="city-container">
+                    <ul class="cities"></ul>
+                </div>
+            </div>        
+        </div>
+    </section>
+
+    <script src="main.js"></script>
+</body>
+</html>
